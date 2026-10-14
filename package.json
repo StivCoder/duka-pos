@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "fake-indexeddb": "^6.2.5"
+  },
+  "scripts": {
+    "build": "esbuild js/boot.js --bundle --format=iife --outfile=dist/app.js",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

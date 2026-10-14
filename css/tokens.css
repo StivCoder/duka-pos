@@ -1,0 +1,14 @@
+/* Portfolio palette. Single source of truth: change values here to re-theme everything. */
+:root{
+  --accent:#c8102e; --accent-dark:#9a0c23; --accent-tint:#fbe3e6;   /* buttons, labels, stats band */
+  --number:#f00;                                                    /* card numbers */
+  --paper:#f5f5f5; --surface:#ffffff;                               /* page background */
+  --ink:#0d0d0d;                                                    /* sidebar (Spotlight) */
+  --ink-2:#1a1a1a;                                                  /* hover / secondary dark (Why) */
+  --footer:#222;                                                    /* footer */
+  --charcoal:#0d0d0d; --grey:#666; --line:#e2e2e2; --muted:#e8e8e8;
+  --red:#c8102e; --red-tint:#fbe3e6;
+  --font:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --radius:6px; --shadow:0 1px 2px rgba(13,13,13,.08);
+  --sidebar-w:224px;
+}
